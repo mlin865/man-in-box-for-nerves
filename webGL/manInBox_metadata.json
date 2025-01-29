@@ -1,0 +1,126 @@
+[
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "skin",
+    "Type": "Surfaces",
+    "URL": "manInBox_01.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "bones",
+    "Type": "Surfaces",
+    "URL": [
+      "manInBox_02_split_1.json",
+      "manInBox_02_split_2.json",
+      "manInBox_02_split_3.json"
+    ]
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "vertebral column",
+    "Type": "Surfaces",
+    "URL": "manInBox_03.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "heart",
+    "Type": "Surfaces",
+    "URL": "manInBox_04.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "lungs",
+    "Type": "Surfaces",
+    "URL": "manInBox_05.json"
+  },
+  {
+    "GroupName": "esophagus",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "GI tract",
+    "Type": "Surfaces",
+    "URL": "manInBox_06.json"
+  },
+  {
+    "GroupName": "stomach",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "GI tract",
+    "Type": "Surfaces",
+    "URL": "manInBox_07.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "diaphragm",
+    "Type": "Surfaces",
+    "URL": "manInBox_08.json"
+  },
+  {
+    "GroupName": "Left phrenic nerve",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves",
+    "Type": "Lines",
+    "URL": "manInBox_09.json"
+  },
+  {
+    "GroupName": "Right phrenic nerve",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves",
+    "Type": "Lines",
+    "URL": "manInBox_10.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "scapula/left scapula",
+    "Type": "Surfaces",
+    "URL": "manInBox_11.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "scapula/right scapula",
+    "Type": "Surfaces",
+    "URL": "manInBox_12.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "clavicle/left clavicle",
+    "Type": "Surfaces",
+    "URL": "manInBox_13.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "clavicle/right clavicle",
+    "Type": "Surfaces",
+    "URL": "manInBox_14.json"
+  },
+  {
+    "Type": "View",
+    "URL": "manInBox_Layout1_view.json"
+  }
+]

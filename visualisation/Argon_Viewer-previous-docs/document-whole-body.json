@@ -561,7 +561,6 @@
         "Model": {
           "Sources": [
             {
-              "Edit": true,
               "FileName": "../Organs/Geometry_Fitter_Wholebody.exf",
               "Type": "FILE"
             }
@@ -613,7 +612,6 @@
         "Model": {
           "Sources": [
             {
-              "Edit": true,
               "FileName": "../Organs/bones.exf",
               "Type": "FILE"
             }
@@ -623,11 +621,216 @@
         "Scene": {
           "Graphics": [
             {
-              "BoundaryMode": "BOUNDARY",
+              "BoundaryMode": "ALL",
               "CoordinateField": "fitted coordinates",
               "ElementFaceType": "ALL",
               "FieldDomainType": "MESH2D",
               "Material": "bone",
+              "RenderLineWidth": 1,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "Surfaces": {},
+              "Tessellation": "default",
+              "Type": "SURFACES",
+              "VisibilityFlag": true
+            }
+          ],
+          "VisibilityFlag": true
+        }
+      },
+      {
+        "ChildRegions": [
+          {
+            "Fieldmodule": {
+              "Fields": [
+                {
+                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+                  "FieldFiniteElement": {
+                    "ComponentNames": [
+                      "x",
+                      "y",
+                      "z"
+                    ],
+                    "NumberOfComponents": 3
+                  },
+                  "IsManaged": true,
+                  "IsTypeCoordinate": true,
+                  "Name": "coordinates"
+                },
+                {
+                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+                  "FieldFiniteElement": {
+                    "ComponentNames": [
+                      "x",
+                      "y",
+                      "z"
+                    ],
+                    "NumberOfComponents": 3
+                  },
+                  "IsManaged": true,
+                  "IsTypeCoordinate": false,
+                  "Name": "rgb"
+                }
+              ]
+            },
+            "Model": {
+              "Sources": [
+                {
+                  "FileName": "../Organs/left_clavicle.exf",
+                  "Type": "FILE"
+                }
+              ]
+            },
+            "Name": "left clavicle",
+            "Scene": {
+              "Graphics": [
+                {
+                  "BoundaryMode": "ALL",
+                  "CoordinateField": "coordinates",
+                  "ElementFaceType": "ALL",
+                  "FieldDomainType": "MESH2D",
+                  "Material": "bone",
+                  "RenderLineWidth": 1,
+                  "RenderPointSize": 1,
+                  "RenderPolygonMode": "SHADED",
+                  "Scenecoordinatesystem": "LOCAL",
+                  "SelectMode": "ON",
+                  "SelectedMaterial": "default_selected",
+                  "Surfaces": {},
+                  "Tessellation": "default",
+                  "Type": "SURFACES",
+                  "VisibilityFlag": true
+                }
+              ],
+              "VisibilityFlag": true
+            }
+          },
+          {
+            "Fieldmodule": {
+              "Fields": [
+                {
+                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+                  "FieldFiniteElement": {
+                    "ComponentNames": [
+                      "x",
+                      "y",
+                      "z"
+                    ],
+                    "NumberOfComponents": 3
+                  },
+                  "IsManaged": true,
+                  "IsTypeCoordinate": true,
+                  "Name": "coordinates"
+                },
+                {
+                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+                  "FieldFiniteElement": {
+                    "ComponentNames": [
+                      "x",
+                      "y",
+                      "z"
+                    ],
+                    "NumberOfComponents": 3
+                  },
+                  "IsManaged": true,
+                  "IsTypeCoordinate": false,
+                  "Name": "rgb"
+                }
+              ]
+            },
+            "Model": {
+              "Sources": [
+                {
+                  "FileName": "../Organs/right_clavicle.exf",
+                  "Type": "FILE"
+                }
+              ]
+            },
+            "Name": "right clavicle",
+            "Scene": {
+              "Graphics": [
+                {
+                  "BoundaryMode": "ALL",
+                  "CoordinateField": "coordinates",
+                  "ElementFaceType": "ALL",
+                  "FieldDomainType": "MESH2D",
+                  "Material": "bone",
+                  "RenderLineWidth": 1,
+                  "RenderPointSize": 1,
+                  "RenderPolygonMode": "SHADED",
+                  "Scenecoordinatesystem": "LOCAL",
+                  "SelectMode": "ON",
+                  "SelectedMaterial": "default_selected",
+                  "Surfaces": {},
+                  "Tessellation": "default",
+                  "Type": "SURFACES",
+                  "VisibilityFlag": true
+                }
+              ],
+              "VisibilityFlag": true
+            }
+          }
+        ],
+        "Fieldmodule": null,
+        "Name": "clavicle",
+        "Scene": {
+          "Graphics": null,
+          "VisibilityFlag": true
+        }
+      },
+      {
+        "Fieldmodule": {
+          "Fields": [
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": false,
+              "Name": "rgb"
+            }
+          ]
+        },
+        "Model": {
+          "Sources": [
+            {
+              "FileName": "../Organs/diaphragm.exf",
+              "Type": "FILE"
+            }
+          ]
+        },
+        "Name": "diaphragm",
+        "Scene": {
+          "Graphics": [
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH2D",
+              "Material": "green",
               "RenderLineWidth": 1,
               "RenderPointSize": 1,
               "RenderPolygonMode": "SHADED",
@@ -659,33 +862,77 @@
               "IsManaged": true,
               "IsTypeCoordinate": true,
               "Name": "coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "flat coordinates"
+            },
+            {
+              "FieldStoredMeshLocation": {
+                "Mesh": "mesh3d"
+              },
+              "IsManaged": true,
+              "Name": "marker_location"
+            },
+            {
+              "FieldStoredString": null,
+              "IsManaged": true,
+              "Name": "marker_name"
             }
           ]
         },
         "Model": {
           "Sources": [
             {
-              "Edit": true,
-              "FileName": "../Organs/vertebral column.exf",
+              "FileName": "../Organs/gastrointestinal_tract.exf",
               "Type": "FILE"
             }
           ]
         },
-        "Name": "vertebral column",
+        "Name": "GI tract",
         "Scene": {
           "Graphics": [
             {
-              "BoundaryMode": "ALL",
+              "BoundaryMode": "BOUNDARY",
               "CoordinateField": "coordinates",
               "ElementFaceType": "ALL",
               "FieldDomainType": "MESH2D",
-              "Material": "bone",
+              "Material": "magenta",
               "RenderLineWidth": 1,
               "RenderPointSize": 1,
               "RenderPolygonMode": "SHADED",
               "Scenecoordinatesystem": "LOCAL",
               "SelectMode": "ON",
               "SelectedMaterial": "default_selected",
+              "SubgroupField": "esophagus",
+              "Surfaces": {},
+              "Tessellation": "default",
+              "Type": "SURFACES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "BOUNDARY",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH2D",
+              "Material": "magenta",
+              "RenderLineWidth": 1,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "stomach",
               "Surfaces": {},
               "Tessellation": "default",
               "Type": "SURFACES",
@@ -793,7 +1040,6 @@
         "Model": {
           "Sources": [
             {
-              "Edit": true,
               "FileName": "../Organs/heart.exf",
               "Type": "FILE"
             }
@@ -845,7 +1091,6 @@
         "Model": {
           "Sources": [
             {
-              "Edit": true,
               "FileName": "../Organs/lung.exf",
               "Type": "FILE"
             }
@@ -860,169 +1105,6 @@
               "ElementFaceType": "ALL",
               "FieldDomainType": "MESH2D",
               "Material": "orange",
-              "RenderLineWidth": 1,
-              "RenderPointSize": 1,
-              "RenderPolygonMode": "SHADED",
-              "Scenecoordinatesystem": "LOCAL",
-              "SelectMode": "ON",
-              "SelectedMaterial": "default_selected",
-              "Surfaces": {},
-              "Tessellation": "default",
-              "Type": "SURFACES",
-              "VisibilityFlag": true
-            }
-          ],
-          "VisibilityFlag": true
-        }
-      },
-      {
-        "Fieldmodule": {
-          "Fields": [
-            {
-              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-              "FieldFiniteElement": {
-                "ComponentNames": [
-                  "x",
-                  "y",
-                  "z"
-                ],
-                "NumberOfComponents": 3
-              },
-              "IsManaged": true,
-              "IsTypeCoordinate": true,
-              "Name": "coordinates"
-            },
-            {
-              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-              "FieldFiniteElement": {
-                "ComponentNames": [
-                  "x",
-                  "y",
-                  "z"
-                ],
-                "NumberOfComponents": 3
-              },
-              "IsManaged": true,
-              "IsTypeCoordinate": true,
-              "Name": "flat coordinates"
-            },
-            {
-              "FieldStoredMeshLocation": {
-                "Mesh": "mesh3d"
-              },
-              "IsManaged": true,
-              "Name": "marker_location"
-            },
-            {
-              "FieldStoredString": null,
-              "IsManaged": true,
-              "Name": "marker_name"
-            }
-          ]
-        },
-        "Model": {
-          "Sources": [
-            {
-              "Edit": true,
-              "FileName": "../Organs/gastrointestinal_tract.exf",
-              "Type": "FILE"
-            }
-          ]
-        },
-        "Name": "GI tract",
-        "Scene": {
-          "Graphics": [
-            {
-              "BoundaryMode": "BOUNDARY",
-              "CoordinateField": "coordinates",
-              "ElementFaceType": "ALL",
-              "FieldDomainType": "MESH2D",
-              "Material": "magenta",
-              "RenderLineWidth": 1,
-              "RenderPointSize": 1,
-              "RenderPolygonMode": "SHADED",
-              "Scenecoordinatesystem": "LOCAL",
-              "SelectMode": "ON",
-              "SelectedMaterial": "default_selected",
-              "SubgroupField": "esophagus",
-              "Surfaces": {},
-              "Tessellation": "default",
-              "Type": "SURFACES",
-              "VisibilityFlag": true
-            },
-            {
-              "BoundaryMode": "BOUNDARY",
-              "CoordinateField": "coordinates",
-              "ElementFaceType": "ALL",
-              "FieldDomainType": "MESH2D",
-              "Material": "magenta",
-              "RenderLineWidth": 1,
-              "RenderPointSize": 1,
-              "RenderPolygonMode": "SHADED",
-              "Scenecoordinatesystem": "LOCAL",
-              "SelectMode": "ON",
-              "SelectedMaterial": "default_selected",
-              "SubgroupField": "stomach",
-              "Surfaces": {},
-              "Tessellation": "default",
-              "Type": "SURFACES",
-              "VisibilityFlag": true
-            }
-          ],
-          "VisibilityFlag": true
-        }
-      },
-      {
-        "Fieldmodule": {
-          "Fields": [
-            {
-              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-              "FieldFiniteElement": {
-                "ComponentNames": [
-                  "x",
-                  "y",
-                  "z"
-                ],
-                "NumberOfComponents": 3
-              },
-              "IsManaged": true,
-              "IsTypeCoordinate": true,
-              "Name": "coordinates"
-            },
-            {
-              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-              "FieldFiniteElement": {
-                "ComponentNames": [
-                  "x",
-                  "y",
-                  "z"
-                ],
-                "NumberOfComponents": 3
-              },
-              "IsManaged": true,
-              "IsTypeCoordinate": false,
-              "Name": "rgb"
-            }
-          ]
-        },
-        "Model": {
-          "Sources": [
-            {
-              "Edit": true,
-              "FileName": "../Organs/diaphragm.exf",
-              "Type": "FILE"
-            }
-          ]
-        },
-        "Name": "diaphragm",
-        "Scene": {
-          "Graphics": [
-            {
-              "BoundaryMode": "ALL",
-              "CoordinateField": "coordinates",
-              "ElementFaceType": "ALL",
-              "FieldDomainType": "MESH2D",
-              "Material": "green",
               "RenderLineWidth": 1,
               "RenderPointSize": 1,
               "RenderPolygonMode": "SHADED",
@@ -1086,13 +1168,12 @@
         "Model": {
           "Sources": [
             {
-              "Edit": true,
               "FileName": "../Organs/nervesWithVagus.exf",
               "Type": "FILE"
             }
           ]
         },
-        "Name": "nerves",
+        "Name": "nerve",
         "Scene": {
           "Graphics": [
             {
@@ -1181,7 +1262,6 @@
             "Model": {
               "Sources": [
                 {
-                  "Edit": true,
                   "FileName": "../Organs/Left scapula.exf",
                   "Type": "FILE"
                 }
@@ -1233,7 +1313,6 @@
             "Model": {
               "Sources": [
                 {
-                  "Edit": true,
                   "FileName": "../Organs/Right scapula.exf",
                   "Type": "FILE"
                 }
@@ -1272,144 +1351,244 @@
         }
       },
       {
-        "ChildRegions": [
-          {
-            "Fieldmodule": {
-              "Fields": [
-                {
-                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-                  "FieldFiniteElement": {
-                    "ComponentNames": [
-                      "x",
-                      "y",
-                      "z"
-                    ],
-                    "NumberOfComponents": 3
-                  },
-                  "IsManaged": true,
-                  "IsTypeCoordinate": true,
-                  "Name": "coordinates"
-                },
-                {
-                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-                  "FieldFiniteElement": {
-                    "ComponentNames": [
-                      "x",
-                      "y",
-                      "z"
-                    ],
-                    "NumberOfComponents": 3
-                  },
-                  "IsManaged": true,
-                  "IsTypeCoordinate": false,
-                  "Name": "rgb"
-                }
-              ]
-            },
-            "Model": {
-              "Sources": [
-                {
-                  "Edit": true,
-                  "FileName": "../Organs/left_clavicle.exf",
-                  "Type": "FILE"
-                }
-              ]
-            },
-            "Name": "left clavicle",
-            "Scene": {
-              "Graphics": [
-                {
-                  "BoundaryMode": "ALL",
-                  "CoordinateField": "coordinates",
-                  "ElementFaceType": "ALL",
-                  "FieldDomainType": "MESH2D",
-                  "Material": "bone",
-                  "RenderLineWidth": 1,
-                  "RenderPointSize": 1,
-                  "RenderPolygonMode": "SHADED",
-                  "Scenecoordinatesystem": "LOCAL",
-                  "SelectMode": "ON",
-                  "SelectedMaterial": "default_selected",
-                  "Surfaces": {},
-                  "Tessellation": "default",
-                  "Type": "SURFACES",
-                  "VisibilityFlag": true
-                }
-              ],
-              "VisibilityFlag": true
+        "Fieldmodule": {
+          "Fields": [
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "coordinates"
             }
-          },
-          {
-            "Fieldmodule": {
-              "Fields": [
-                {
-                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-                  "FieldFiniteElement": {
-                    "ComponentNames": [
-                      "x",
-                      "y",
-                      "z"
-                    ],
-                    "NumberOfComponents": 3
-                  },
-                  "IsManaged": true,
-                  "IsTypeCoordinate": true,
-                  "Name": "coordinates"
-                },
-                {
-                  "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
-                  "FieldFiniteElement": {
-                    "ComponentNames": [
-                      "x",
-                      "y",
-                      "z"
-                    ],
-                    "NumberOfComponents": 3
-                  },
-                  "IsManaged": true,
-                  "IsTypeCoordinate": false,
-                  "Name": "rgb"
-                }
-              ]
-            },
-            "Model": {
-              "Sources": [
-                {
-                  "Edit": true,
-                  "FileName": "../Organs/right_clavicle.exf",
-                  "Type": "FILE"
-                }
-              ]
-            },
-            "Name": "right clavicle",
-            "Scene": {
-              "Graphics": [
-                {
-                  "BoundaryMode": "ALL",
-                  "CoordinateField": "coordinates",
-                  "ElementFaceType": "ALL",
-                  "FieldDomainType": "MESH2D",
-                  "Material": "bone",
-                  "RenderLineWidth": 1,
-                  "RenderPointSize": 1,
-                  "RenderPolygonMode": "SHADED",
-                  "Scenecoordinatesystem": "LOCAL",
-                  "SelectMode": "ON",
-                  "SelectedMaterial": "default_selected",
-                  "Surfaces": {},
-                  "Tessellation": "default",
-                  "Type": "SURFACES",
-                  "VisibilityFlag": true
-                }
-              ],
-              "VisibilityFlag": true
+          ]
+        },
+        "Model": {
+          "Sources": [
+            {
+              "FileName": "../Organs/vertebral column.exf",
+              "Type": "FILE"
             }
-          }
-        ],
-        "Fieldmodule": null,
-        "Name": "clavicle",
+          ]
+        },
+        "Name": "vertebral column",
         "Scene": {
-          "Graphics": null,
+          "Graphics": [
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH2D",
+              "Material": "bone",
+              "RenderLineWidth": 1,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "Surfaces": {},
+              "Tessellation": "default",
+              "Type": "SURFACES",
+              "VisibilityFlag": true
+            }
+          ],
+          "VisibilityFlag": true
+        }
+      },
+      {
+        "Fieldmodule": {
+          "Fields": [
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "1"
+                ],
+                "NumberOfComponents": 1
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": false,
+              "Name": "radius"
+            }
+          ]
+        },
+        "Model": {
+          "Sources": [
+            {
+              "FileName": "../Organs/arteries.exf",
+              "Type": "FILE"
+            }
+          ]
+        },
+        "Name": "arteries",
+        "Scene": {
+          "Graphics": [
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "cyan",
+              "RenderLineWidth": 3,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "\"Aortic arch\"",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "red",
+              "RenderLineWidth": 3,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "\"Left common carotid artery\"",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "red",
+              "RenderLineWidth": 3,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "\"Left subclavian artery\"",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "red",
+              "RenderLineWidth": 3,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "\"Right common carotid artery\"",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "red",
+              "RenderLineWidth": 3,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "\"Right subclavian artery\"",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            }
+          ],
           "VisibilityFlag": true
         }
       }
@@ -1419,67 +1598,7 @@
       "Sources": [
         {
           "Edit": true,
-          "FileName": "../Organs/bones.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/diaphragm.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/gastrointestinal_tract.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/Geometry_Fitter_Wholebody.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/heart.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/Left scapula.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/left_clavicle.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/lung.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
           "FileName": "../Organs/muscles.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/nervesWithVagus.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/Right scapula.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/right_clavicle.exf",
-          "Type": "FILE"
-        },
-        {
-          "Edit": true,
-          "FileName": "../Organs/vertebral column.exf",
           "Type": "FILE"
         }
       ]
@@ -1660,17 +1779,17 @@
                 1.0
               ],
               "EyePosition": [
-                69.71973994651279,
-                -3676.248424026995,
-                1112.361831115923
+                191.9366593879567,
+                -6475.582445852513,
+                1228.994688720716
               ],
               "FarClippingPlane": 15013.849025855745,
               "LightingLocalViewer": false,
               "LightingTwoSided": true,
               "LookatPosition": [
-                -1.0555419921875,
-                -102.07274055480957,
-                782.4486846923828
+                51.399539334901064,
+                -95.58590134338301,
+                925.0528493616696
               ],
               "NearClippingPlane": 1.5391511398738495,
               "PerturbLinesFlag": true,
@@ -1678,13 +1797,13 @@
               "Scene": null,
               "Scenefilter": "default",
               "TranslationRate": 1,
-              "TransparencyLayers": 6,
+              "TransparencyLayers": 1,
               "TransparencyMode": "SLOW",
               "TumbleRate": 1.5,
               "UpVector": [
-                -0.033929648139423896,
-                0.09119481492318987,
-                0.9952548842925932
+                0.003971188405520833,
+                0.04767274682341413,
+                0.9988551140545656
               ],
               "ViewAngle": 0.6981317007977287,
               "ZoomRate": 1

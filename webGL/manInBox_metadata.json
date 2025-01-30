@@ -16,14 +16,23 @@
     "URL": [
       "manInBox_02_split_1.json",
       "manInBox_02_split_2.json",
-      "manInBox_02_split_3.json"
+      "manInBox_02_split_3.json",
+      "manInBox_02_split_4.json",
+      "manInBox_02_split_5.json",
+      "manInBox_02_split_6.json",
+      "manInBox_02_split_7.json",
+      "manInBox_02_split_8.json",
+      "manInBox_02_split_9.json",
+      "manInBox_02_split_10.json",
+      "manInBox_02_split_11.json",
+      "manInBox_02_split_12.json"
     ]
   },
   {
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "vertebral column",
+    "RegionPath": "clavicle/left clavicle",
     "Type": "Surfaces",
     "URL": "manInBox_03.json"
   },
@@ -31,7 +40,7 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "heart",
+    "RegionPath": "clavicle/right clavicle",
     "Type": "Surfaces",
     "URL": "manInBox_04.json"
   },
@@ -39,7 +48,7 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "lungs",
+    "RegionPath": "diaphragm",
     "Type": "Surfaces",
     "URL": "manInBox_05.json"
   },
@@ -65,27 +74,35 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "diaphragm",
+    "RegionPath": "heart",
     "Type": "Surfaces",
     "URL": "manInBox_08.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "lungs",
+    "Type": "Surfaces",
+    "URL": "manInBox_09.json"
   },
   {
     "GroupName": "Left phrenic nerve",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "nerves",
+    "RegionPath": "nerve",
     "Type": "Lines",
-    "URL": "manInBox_09.json"
+    "URL": "manInBox_10.json"
   },
   {
     "GroupName": "Right phrenic nerve",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "nerves",
+    "RegionPath": "nerve",
     "Type": "Lines",
-    "URL": "manInBox_10.json"
+    "URL": "manInBox_11.json"
   },
   {
     "MorphColours": false,
@@ -93,7 +110,7 @@
     "MorphVertices": false,
     "RegionPath": "scapula/left scapula",
     "Type": "Surfaces",
-    "URL": "manInBox_11.json"
+    "URL": "manInBox_12.json"
   },
   {
     "MorphColours": false,
@@ -101,23 +118,60 @@
     "MorphVertices": false,
     "RegionPath": "scapula/right scapula",
     "Type": "Surfaces",
-    "URL": "manInBox_12.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "clavicle/left clavicle",
-    "Type": "Surfaces",
     "URL": "manInBox_13.json"
   },
   {
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "clavicle/right clavicle",
+    "RegionPath": "vertebral column",
     "Type": "Surfaces",
     "URL": "manInBox_14.json"
+  },
+  {
+    "GroupName": "\"Aortic arch\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_15.json"
+  },
+  {
+    "GroupName": "\"Left common carotid artery\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_16.json"
+  },
+  {
+    "GroupName": "\"Left subclavian artery\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_17.json"
+  },
+  {
+    "GroupName": "\"Right common carotid artery\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_18.json"
+  },
+  {
+    "GroupName": "\"Right subclavian artery\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_19.json"
   },
   {
     "Type": "View",

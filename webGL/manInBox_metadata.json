@@ -8,58 +8,13 @@
     "URL": "manInBox_01.json"
   },
   {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "bones",
-    "Type": "Surfaces",
-    "URL": [
-      "manInBox_02_split_1.json",
-      "manInBox_02_split_2.json",
-      "manInBox_02_split_3.json",
-      "manInBox_02_split_4.json",
-      "manInBox_02_split_5.json",
-      "manInBox_02_split_6.json",
-      "manInBox_02_split_7.json",
-      "manInBox_02_split_8.json",
-      "manInBox_02_split_9.json",
-      "manInBox_02_split_10.json",
-      "manInBox_02_split_11.json",
-      "manInBox_02_split_12.json"
-    ]
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "clavicle/left clavicle",
-    "Type": "Surfaces",
-    "URL": "manInBox_03.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "clavicle/right clavicle",
-    "Type": "Surfaces",
-    "URL": "manInBox_04.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "diaphragm",
-    "Type": "Surfaces",
-    "URL": "manInBox_05.json"
-  },
-  {
     "GroupName": "esophagus",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "GI tract",
     "Type": "Surfaces",
-    "URL": "manInBox_06.json"
+    "URL": "manInBox_02.json"
   },
   {
     "GroupName": "stomach",
@@ -68,83 +23,7 @@
     "MorphVertices": false,
     "RegionPath": "GI tract",
     "Type": "Surfaces",
-    "URL": "manInBox_07.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "heart",
-    "Type": "Surfaces",
-    "URL": "manInBox_08.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "lungs",
-    "Type": "Surfaces",
-    "URL": "manInBox_09.json"
-  },
-  {
-    "GroupName": "Left phrenic nerve",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "nerve",
-    "Type": "Lines",
-    "URL": "manInBox_10.json"
-  },
-  {
-    "GroupName": "Right phrenic nerve",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "nerve",
-    "Type": "Lines",
-    "URL": "manInBox_11.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "scapula/left scapula",
-    "Type": "Surfaces",
-    "URL": "manInBox_12.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "scapula/right scapula",
-    "Type": "Surfaces",
-    "URL": "manInBox_13.json"
-  },
-  {
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "vertebral column",
-    "Type": "Surfaces",
-    "URL": "manInBox_14.json"
-  },
-  {
-    "GroupName": "\"Aortic arch\"",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "arteries",
-    "Type": "Lines",
-    "URL": "manInBox_15.json"
-  },
-  {
-    "GroupName": "\"Left common carotid artery\"",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "arteries",
-    "Type": "Lines",
-    "URL": "manInBox_16.json"
+    "URL": "manInBox_03.json"
   },
   {
     "GroupName": "\"Left subclavian artery\"",
@@ -153,16 +32,7 @@
     "MorphVertices": false,
     "RegionPath": "arteries",
     "Type": "Lines",
-    "URL": "manInBox_17.json"
-  },
-  {
-    "GroupName": "\"Right common carotid artery\"",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "arteries",
-    "Type": "Lines",
-    "URL": "manInBox_18.json"
+    "URL": "manInBox_04.json"
   },
   {
     "GroupName": "\"Right subclavian artery\"",
@@ -171,7 +41,182 @@
     "MorphVertices": false,
     "RegionPath": "arteries",
     "Type": "Lines",
+    "URL": "manInBox_05.json"
+  },
+  {
+    "GroupName": "\"Left common carotid artery\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_06.json"
+  },
+  {
+    "GroupName": "\"Right common carotid artery\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_07.json"
+  },
+  {
+    "GroupName": "\"Abdominal aorta\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_08.json"
+  },
+  {
+    "GroupName": "\"Aortic arch\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_09.json"
+  },
+  {
+    "GroupName": "\"Ascending aorta\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_10.json"
+  },
+  {
+    "GroupName": "\"Brachiocephalic trunk\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_11.json"
+  },
+  {
+    "GroupName": "\"Thoracic aorta\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "arteries",
+    "Type": "Lines",
+    "URL": "manInBox_12.json"
+  },
+  {
+    "GroupName": "\"Internal jugular vein (L)\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "veins",
+    "Type": "Lines",
+    "URL": "manInBox_13.json"
+  },
+  {
+    "GroupName": "\"Internal jugular vein (R)\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "veins",
+    "Type": "Lines",
+    "URL": "manInBox_14.json"
+  },
+  {
+    "GroupName": "\"Right brachiocephalic vein\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "veins",
+    "Type": "Lines",
+    "URL": "manInBox_15.json"
+  },
+  {
+    "GroupName": "\"Left brachiocephalic vein\"",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "veins",
+    "Type": "Lines",
+    "URL": "manInBox_16.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "heart",
+    "Type": "Surfaces",
+    "URL": "manInBox_17.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "lung",
+    "Type": "Surfaces",
+    "URL": "manInBox_18.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "brainstem",
+    "Type": "Surfaces",
     "URL": "manInBox_19.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "diaphraghm",
+    "Type": "Surfaces",
+    "URL": "manInBox_20.json"
+  },
+  {
+    "GroupName": "Right vagus nerve",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves",
+    "Type": "Lines",
+    "URL": "manInBox_21.json"
+  },
+  {
+    "GroupName": "Left vagus nerve",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves",
+    "Type": "Lines",
+    "URL": "manInBox_22.json"
+  },
+  {
+    "GroupName": "Anterior esophageal vagus trunk",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves",
+    "Type": "Lines",
+    "URL": "manInBox_23.json"
+  },
+  {
+    "GroupName": "Posterior esophageal vagus trunk",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves",
+    "Type": "Lines",
+    "URL": "manInBox_24.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "manubrium",
+    "Type": "Surfaces",
+    "URL": "manInBox_25.json"
   },
   {
     "Type": "View",

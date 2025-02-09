@@ -143,18 +143,19 @@
     "URL": "manInBox_16.json"
   },
   {
+    "GroupName": "\"Left superior intercostal vein 1\"",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "heart",
-    "Type": "Surfaces",
+    "RegionPath": "veins",
+    "Type": "Lines",
     "URL": "manInBox_17.json"
   },
   {
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "lung",
+    "RegionPath": "heart",
     "Type": "Surfaces",
     "URL": "manInBox_18.json"
   },
@@ -162,7 +163,7 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "brainstem",
+    "RegionPath": "lung",
     "Type": "Surfaces",
     "URL": "manInBox_19.json"
   },
@@ -170,9 +171,17 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "diaphraghm",
+    "RegionPath": "brainstem",
     "Type": "Surfaces",
     "URL": "manInBox_20.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "diaphraghm",
+    "Type": "Surfaces",
+    "URL": "manInBox_21.json"
   },
   {
     "GroupName": "Right vagus nerve",
@@ -181,7 +190,7 @@
     "MorphVertices": false,
     "RegionPath": "nerves",
     "Type": "Lines",
-    "URL": "manInBox_21.json"
+    "URL": "manInBox_22.json"
   },
   {
     "GroupName": "Left vagus nerve",
@@ -190,7 +199,7 @@
     "MorphVertices": false,
     "RegionPath": "nerves",
     "Type": "Lines",
-    "URL": "manInBox_22.json"
+    "URL": "manInBox_23.json"
   },
   {
     "GroupName": "Anterior esophageal vagus trunk",
@@ -199,7 +208,7 @@
     "MorphVertices": false,
     "RegionPath": "nerves",
     "Type": "Lines",
-    "URL": "manInBox_23.json"
+    "URL": "manInBox_24.json"
   },
   {
     "GroupName": "Posterior esophageal vagus trunk",
@@ -208,7 +217,7 @@
     "MorphVertices": false,
     "RegionPath": "nerves",
     "Type": "Lines",
-    "URL": "manInBox_24.json"
+    "URL": "manInBox_25.json"
   },
   {
     "MorphColours": false,
@@ -216,7 +225,7 @@
     "MorphVertices": false,
     "RegionPath": "manubrium",
     "Type": "Surfaces",
-    "URL": "manInBox_25.json"
+    "URL": "manInBox_26.json"
   },
   {
     "Type": "View",

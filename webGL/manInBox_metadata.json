@@ -228,6 +228,42 @@
     "URL": "manInBox_26.json"
   },
   {
+    "GroupName": "Anterior esophageal vagus trunk",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves_improved",
+    "Type": "Lines",
+    "URL": "manInBox_27.json"
+  },
+  {
+    "GroupName": "Right vagus nerve",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves_improved",
+    "Type": "Lines",
+    "URL": "manInBox_28.json"
+  },
+  {
+    "GroupName": "Left vagus nerve",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves_improved",
+    "Type": "Lines",
+    "URL": "manInBox_29.json"
+  },
+  {
+    "GroupName": "Posterior esophageal vagus trunk",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "nerves_improved",
+    "Type": "Lines",
+    "URL": "manInBox_30.json"
+  },
+  {
     "Type": "View",
     "URL": "manInBox_Layout1_view.json"
   }

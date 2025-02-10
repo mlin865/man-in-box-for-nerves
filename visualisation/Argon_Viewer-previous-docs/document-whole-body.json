@@ -1718,6 +1718,182 @@
           ],
           "VisibilityFlag": true
         }
+      },
+      {
+        "Fieldmodule": {
+          "Fields": [
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "marker coordinates"
+            },
+            {
+              "FieldStoredMeshLocation": {
+                "Mesh": "mesh1d"
+              },
+              "IsManaged": true,
+              "Name": "marker_location"
+            },
+            {
+              "FieldStoredString": null,
+              "IsManaged": true,
+              "Name": "marker_name"
+            }
+          ]
+        },
+        "Model": {
+          "Sources": [
+            {
+              "FileName": "../Organs/nerves_improved.exf",
+              "Type": "FILE"
+            }
+          ]
+        },
+        "Name": "nerves_improved",
+        "Scene": {
+          "Graphics": [
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "green",
+              "RenderLineWidth": 2,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "Anterior esophageal vagus trunk",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "green",
+              "RenderLineWidth": 2,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "Right vagus nerve",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "green",
+              "RenderLineWidth": 2,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "Left vagus nerve",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            },
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "green",
+              "RenderLineWidth": 2,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "Posterior esophageal vagus trunk",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            }
+          ],
+          "VisibilityFlag": true
+        }
       }
     ],
     "Fieldmodule": null,
@@ -1897,19 +2073,19 @@
                 1.0
               ],
               "EyePosition": [
-                730.7504523903134,
-                -7492.72975838985,
-                2451.058185495515
+                111.59663737878711,
+                -881.8527882753534,
+                1538.0178646026075
               ],
-              "FarClippingPlane": 15419.419491005787,
+              "FarClippingPlane": 15013.851816664974,
               "LightingLocalViewer": false,
               "LightingTwoSided": true,
               "LookatPosition": [
-                -1.0555419921875,
-                -102.07274055480957,
-                782.4486846923828
+                21.84394022506145,
+                24.577886221274582,
+                1333.3704521148447
               ],
-              "NearClippingPlane": 407.10961628991436,
+              "NearClippingPlane": 1.5419419491005788,
               "PerturbLinesFlag": true,
               "ProjectionMode": "PERSPECTIVE",
               "Scene": null,
@@ -1923,7 +2099,7 @@
                 0.21550970469590203,
                 0.9753486112883213
               ],
-              "ViewAngle": 0.6981317007977321,
+              "ViewAngle": 0.6981317007977322,
               "ZoomRate": 1
             }
           }
